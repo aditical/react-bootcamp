@@ -5,6 +5,7 @@ import ListAndKeys from "./listAndKeys";
 import FormExample from "./form";
 import HookExample from "./hooksExample";
 import AxiosExample from "./axiosExample";
+import ReduxExample from "./reduxExample";
 
 function App() {
   const address = "Kathmandu";
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div style={{ display: "flex", width: "100%" }}>
-          <div style={{ border: "2px solid red", marginRight: "20px" }}>
+          {/* <div style={{ border: "2px solid red", marginRight: "20px" }}>
             <h1>Class Examples</h1>
             <TestTwoClass />
           </div>
@@ -31,7 +32,8 @@ function App() {
           </div>
           <div style={{ border: "2px solid pink" }}>
             <h1>Axios</h1> <AxiosExample />
-          </div>
+          </div> */}
+          <ReduxExample />
         </div>
       </header>
     </div>
